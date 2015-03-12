@@ -1,0 +1,10 @@
+[package]
+
+name = "libstdcpp-sys"
+version = "0.0.1"
+authors = ["Alexander Polakov <plhk@sdf.org>"]
+links = "libstdc++"
+build = "build.rs"
+
+[build-dependencies]
+gcc = "*"
